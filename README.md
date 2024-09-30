@@ -11,3 +11,5 @@ Tools
 - EKS
 - TERRAFORM
 - ANSIBLE
+
+# STEP 1: Deploying Java Application Locally
