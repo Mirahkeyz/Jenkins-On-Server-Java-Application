@@ -12,4 +12,13 @@ Tools
 - TERRAFORM
 - ANSIBLE
 
+# Tools And Their Usage
+
+- Linux- for scripts and command
+- Git+Github-As a Source Code Management
+- AWS-Cloud Service Provider
+- SonarQube-for code analysis
+- Maven- for building project
+- Nexus-for storing artifacts
+
 # STEP 1: Deploying Java Application Locally
