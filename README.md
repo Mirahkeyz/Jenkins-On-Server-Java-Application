@@ -32,6 +32,16 @@
 - Terraform- for creating server infrastructure
 - Ansible- for installing softwares
 
+# Set Up Phases
 
+PHASE 1: Infrastructure Setup
+
+PHASE 2: Dependency Setup
+
+- in this phase we add dependencies of the project like credentials, tools.
+
+PHASE 3: Deployment Phase
+
+- final build of project with all the jenkins stages
 
 
