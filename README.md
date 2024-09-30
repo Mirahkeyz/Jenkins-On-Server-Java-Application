@@ -1,5 +1,11 @@
 # Jenkins-On-Server-Java-Application
 
+# STEP 1: Deploying Java Application Locally
+
+
+
+# MAIN PROJECT
+
 # Tools
 - AWS
 - GIT/GITHUB
@@ -26,4 +32,6 @@
 - Terraform- for creating server infrastructure
 - Ansible- for installing softwares
 
-# STEP 1: Deploying Java Application Locally
+
+
+
