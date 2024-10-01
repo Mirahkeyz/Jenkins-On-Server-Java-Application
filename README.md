@@ -100,6 +100,7 @@ a. using ansible playbook script from jenkins job install the following
 a. Plugins
 - install the SonarQube Plugin
 - install the AWS Credentials Plugin
+
 b. Credentials
 - AWS Keys
 - Private Key for Ansible
