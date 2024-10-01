@@ -44,4 +44,69 @@ PHASE 3: Deployment Phase
 
 - final build of project with all the jenkins stages
 
+# Phase 1: Infrastructure Setup
+
+1. Setting Jenkins Server
+
+a. create scripts to install jenkins on a server
+
+b. either using plugins or installing packages directly on server install terraform, ansible, docker, K8s and Git on same Server
+
+c. After setting up the jenkins server, add Maven tool
+
+d. Configure AWS user too
+
+2. Git/Github Setup (Public/Private)
+
+a. create a repo for placing all codes
+
+b. for public repo-no creds required
+
+c. for private repo-creds required
+
+3. Kubernetes (EKS) Setup
+
+a. Using EKS or Kubeadm setup the K8s cluster
+- setup worker nodes
+- Have details of Users/roles
+- Information about Kubeconfig file
+
+4. Terraform Scripts
+
+a. create Terraform modules for having 3 servers for the working using jenkins job
+- Sonar Server
+- Nexus Server
+- Test Server
+
+b. place the terraform script in the github for working
+
+5. Nexus And Sonar Server Setup
+
+a. Download and install the Nexus Server
+- verify its working at Port 8081
+b. Download and install the Sonar Server
+- verify its working at Port 9000
+
+6. Test Server Setup
+
+a. using ansible playbook script from jenkins job install the following 
+- Docker
+- Git
+- Maven
+
+7. Plugins And Credentials
+
+a. Plugins
+- install the SonarQube Plugin
+- install the AWS Credentials Plugin
+b. Credentials
+- AWS Keys
+- Private Key for Ansible
+- Nexus Username And Password
+- Dockerhub Creds(Optional for ECR)
+
+
+
+
+
 
