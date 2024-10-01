@@ -120,6 +120,31 @@ b. Then API Token from security
 c. update setting of sonarqube server in system and scanner in tools
 d. Add Token in credentials
 
+# Phase 3: Deployment Phase
 
+1. Options
+- Build Discarder
+- Timeout
+- Clean Workspace
+
+2. Tools
+- Maven
+
+3. Environment
+- Custom Variables
+- Credentials
+
+4. Agents
+- Based On Requirements
+
+5. Stages
+- Checkout
+- Sonar Test
+- Maven Build
+- Nexus Artifacts
+- Docker Build
+- Dockerhub Push/ECR Push
+- K8s Deployment
+- Post Actions
 
 
