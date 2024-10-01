@@ -118,8 +118,11 @@ a. Create Repository For Docker Images
 2. SonarQube Project Setup
 
 a. Create A Sonarqube Project
+
 b. Then API Token from security
+
 c. update setting of sonarqube server in system and scanner in tools
+
 d. Add Token in credentials
 
 # Phase 3: Deployment Phase
