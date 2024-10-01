@@ -84,6 +84,7 @@ b. place the terraform script in the github for working
 
 a. Download and install the Nexus Server
 - verify its working at Port 8081
+
 b. Download and install the Sonar Server
 - verify its working at Port 9000
 
